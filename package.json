@@ -1,0 +1,22 @@
+{
+  "name": "logisflow.github.io",
+  "version": "1.0.0",
+  "description": "Logisflow landing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/logisflow/logisflow.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/logisflow/logisflow.github.io/issues"
+  },
+  "homepage": "https://github.com/logisflow/logisflow.github.io#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
