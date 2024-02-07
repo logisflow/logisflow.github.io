@@ -13,21 +13,19 @@
       @import url("https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&family=Montserrat&display=swap");
     </style>
   </head>
-  <body class="h-dvh w-dvw">
-    <section
-      class="h-full w-full flex flex-col justify-center items-center card-bg-light"
-    >
+  <body>
+    <section class="h-dvh flex flex-col justify-center items-center py-20">
       <img src="img/logo.png" alt="Logisflow Logo" class="w-3/12" />
       <div class="flex flex-col gap-12">
         <div class="flex flex-col">
-          <h1 class="my-4 text-primary text-4xl">Optimiza</h1>
+          <h1 class="my-4 text-primary text-4xl font-bold">Optimiza</h1>
           <p class="text-xl">
             Operaciones logísticas y mejora la eficiencia de tu flota con
             nuestro software integral.
           </p>
         </div>
         <div class="flex flex-col">
-          <h1 class="my-4 text-primary text-4xl">Simplifica</h1>
+          <h1 class="my-4 text-primary text-4xl font-bold">Simplifica</h1>
           <p class="text-xl">
             El control, la planificación, seguimiento y asignación de vehículos
             de manera efectiva.
@@ -75,118 +73,400 @@
       </div>
     </section>
 
-    <section class="flex flex-col gap-20">
-      <div class="h-64 md:h-96 lg:h-250 w-full">
-        <img
-          src="img/transporte-banner.jpg"
-          alt="Banner"
-          class="w-full h-full object-cover"
-          style="object-position: 0% 60%"
-        />
+    <div class="h-64 md:h-96 lg:h-250 w-full">
+      <img
+        src="img/transporte-banner.jpg"
+        alt="Banner"
+        class="w-full h-full object-cover"
+        style="object-position: 0% 60%"
+      />
+    </div>
+
+    <section class="flex flex-col justify-center items-center gap-20 py-20">
+      <div class="flex flex-col w-[750px]">
+        <h1 class="my-4 text-primary text-4xl font-bold">Nuestro Software</h1>
+        <p class="text-xl">
+          Aprovecha las ventajas de un sistema de gestión logística completo que
+          te permitirá tener una visión global de tu flota. Desde la
+          planificación de rutas hasta la gestión de cargas, nuestro software
+          cubre todas tus necesidades.
+        </p>
       </div>
 
-      <div
-        class="w-full flex flex-col justify-center items-center card-bg-light gap-20"
-      >
-        <div class="flex flex-col max-w-[750px] gap-12">
-          <div class="flex flex-col">
-            <h1 class="my-4 text-primary text-4xl">Nuestro Software</h1>
-            <p class="text-xl">
-              Aprovecha las ventajas de un sistema de gestión logística completo
-              que te permitirá tener una visión global de tu flota. Desde la
-              planificación de rutas hasta la gestión de cargas, nuestro
-              software cubre todas tus necesidades.
-            </p>
+      <div class="flex flex-col w-[1000px]">
+        <h1 class="my-4 text-primary text-4xl font-bold">
+          Características Principales
+        </h1>
+
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-center"
+        >
+          <div class="flex flex-col gap-4">
+            <div
+              class="h-[150px] w-[150px] self-center rounded-md overflow-hidden"
+            >
+              <img
+                src="img/caracteristicas-1.jpg"
+                alt="Análisis de Datos"
+                class="w-full h-48 object-cover object-bottom rounded-md"
+              />
+            </div>
+            <div class="flex flex-col gap-4">
+              <h2
+                class="flex items-center justify-center h-16 text-xl font-bold text-gray-500"
+              >
+                Planificación Eficiente
+              </h2>
+              <p>
+                Optimiza tus rutas y distribuye de manera inteligente tus
+                vehículos para minimizar los tiempos de entrega.
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-col gap-4">
+            <div
+              class="h-[150px] w-[150px] self-center rounded-md overflow-hidden"
+            >
+              <img
+                src="img/caracteristicas-2.png"
+                alt="Análisis de Datos"
+                class="w-full h-48 object-cover rounded-md"
+                style="object-position: -60px -30px"
+              />
+            </div>
+            <div class="flex flex-col gap-4">
+              <h2
+                class="flex items-center justify-center h-16 text-xl font-bold text-gray-500"
+              >
+                Seguimiento
+              </h2>
+              <p>
+                Obtén información actualizada sobre la ubicación y el estado de
+                tus vehículos.
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-col gap-4">
+            <div
+              class="h-[150px] w-[150px] self-center rounded-md overflow-hidden"
+            >
+              <img
+                src="img/caracteristicas-3.jpg"
+                alt="Análisis de Datos"
+                class="w-full h-48 object-cover rounded-md"
+              />
+            </div>
+            <div class="flex flex-col gap-4">
+              <h2
+                class="flex items-center justify-center h-16 text-xl font-bold text-gray-500"
+              >
+                Comunicación instantánea
+              </h2>
+              <p>
+                Mantén una comunicación fluida con tus conductores y brinda
+                instrucciones y actualizaciones de forma instantánea.
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-col gap-4">
+            <div
+              class="h-[150px] w-[150px] self-center rounded-md overflow-hidden"
+            >
+              <img
+                src="img/caracteristicas-4.jpg"
+                alt="Análisis de Datos"
+                class="w-full h-48 object-cover rounded-md"
+              />
+            </div>
+            <div class="flex flex-col gap-4">
+              <h2
+                class="flex items-center justify-center h-16 text-xl font-bold text-gray-500"
+              >
+                Informes detallados
+              </h2>
+              <p>
+                Genera informes completos que te permitan analizar y mejorar tus
+                operaciones logísticas.
+              </p>
+            </div>
           </div>
         </div>
+      </div>
 
-        <div class="flex flex-col max-w-[1000px] gap-12">
-          <div class="flex flex-col">
-            <h1 class="my-4 text-primary text-4xl">
-              Características Principales
-            </h1>
-
-            <div
-              class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 text-center items-center"
-            >
-              <div class="flex flex-col gap-4">
-                <div
-                  class="h-[150px] w-[150px] self-center rounded-md overflow-hidden"
-                >
-                  <img
-                    src="img/caracteristicas-1.jpg"
-                    alt="Análisis de Datos"
-                    class="w-full h-48 object-cover object-bottom rounded-md"
-                  />
-                </div>
-                <div class="h-48">
-                  <h2 class="text-xl">Planificación Eficiente</h2>
-                  <br />
-                  <p>
-                    Optimiza tus rutas y distribuye de manera inteligente tus
-                    vehículos para minimizar los tiempos de entrega.
-                  </p>
-                </div>
-              </div>
-              <div class="flex flex-col gap-4">
-                <div
-                  class="h-[150px] w-[150px] self-center rounded-md overflow-hidden"
-                >
-                  <img
-                    src="img/caracteristicas-2.png"
-                    alt="Análisis de Datos"
-                    class="w-full h-48 object-cover rounded-md"
-                    style="object-position: -60px -30px"
-                  />
-                </div>
-                <div class="h-48">
-                  <h2 class="text-xl">Seguimiento</h2>
-                  <br />
-                  <p>
-                    Obtén información actualizada sobre la ubicación y el estado
-                    de tus vehículos.
-                  </p>
-                </div>
-              </div>
-              <div class="flex flex-col gap-4">
-                <div
-                  class="h-[150px] w-[150px] self-center rounded-md overflow-hidden"
-                >
-                  <img
-                    src="img/caracteristicas-3.jpg"
-                    alt="Análisis de Datos"
-                    class="w-full h-48 object-cover rounded-md"
-                  />
-                </div>
-                <div class="h-48">
-                  <h2 class="text-xl">Comunicación instantánea</h2>
-                  <br />
-                  <p>
-                    Mantén una comunicación fluida con tus conductores y brinda
-                    instrucciones y actualizaciones de forma instantánea.
-                  </p>
-                </div>
-              </div>
-              <div class="flex flex-col gap-4">
-                <div
-                  class="h-[150px] w-[150px] self-center rounded-md overflow-hidden"
-                >
-                  <img
-                    src="img/caracteristicas-4.jpg"
-                    alt="Análisis de Datos"
-                    class="w-full h-48 object-cover rounded-md"
-                  />
-                </div>
-                <div class="h-48">
-                  <h2 class="text-xl">Informes detallados</h2>
-                  <br />
-                  <p>
-                    Genera informes completos que te permitan analizar y mejorar
-                    tus operaciones logísticas.
-                  </p>
-                </div>
-              </div>
+      <div class="flex flex-col w-[1000px] gap-12">
+        <div class="flex flex-col">
+          <h1 class="my-4 text-primary text-4xl font-bold">Beneficios</h1>
+          <div class="flex gap-4">
+            <div class="flex flex-col gap-4">
+              <h2 class="text-xl font-bold text-gray-500">
+                Optimización de recursos
+              </h2>
+              <p>
+                Ahorra tiempo y dinero al utilizar eficientemente tu flota y
+                reducir los tiempos de inactividad.
+              </p>
             </div>
+            <div class="flex flex-col gap-4">
+              <h2 class="text-xl font-bold text-gray-500">Mayor Visibilidad</h2>
+              <p>
+                Ten un control total sobre tus operaciones logísticas y toma
+                decisiones informadas en tiempo real.
+              </p>
+            </div>
+            <div class="flex flex-col gap-4">
+              <h2 class="text-xl font-bold text-gray-500">
+                Mejora de Servicio
+              </h2>
+              <p>
+                Ofrece a tus clientes una experiencia superior al entregar sus
+                productos de manera puntual y eficiente.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="flex flex-col items-center justify-center card-bg-dark gap-20 py-20"
+    >
+      <div class="flex flex-col w-[1000px] gap-12">
+        <h1 class="text-primary text-4xl font-bold">Casos de uso</h1>
+
+        <div class="flex flex-col gap-6">
+          <h2 class="text-primary font-bold text-2xl">
+            Logística agropecuaria
+          </h2>
+          <p class="text-gray-400">
+            Para la coordinación de viajes desde el campo: desde la App, el
+            ingeniero o maquinista generan la solicitud de camiones al
+            Coordinador indicando cantidad de camiones, fecha, hora, producto,
+            origen y destino de la carga.
+          </p>
+        </div>
+
+        <div class="flex flex-col gap-6">
+          <h2 class="text-primary font-bold text-2xl">Logística general</h2>
+          <p class="text-gray-400">
+            Para la coordinación de viajes puntuales, que se negocian por km o
+            viaje. Lo solicitud puede realizarse desde un solicitante o puede
+            ser el Coordinador quien las genere
+          </p>
+        </div>
+
+        <div class="flex flex-col gap-6">
+          <h2 class="text-primary font-bold text-2xl">Choferes</h2>
+          <p class="text-gray-400">
+            Lo gestiona 100% desde la App en su teléfono. Al momento de recibir
+            la necesidad del viaje, puede aceptarla o rechazarla, ver el origen,
+            destino, productos, fecha y hora de la necesidad. Cuando acepta el
+            viaje, debe ir actualizando el estado según se den los eventos. Al
+            finalizar, se cierra el viaje y se liquida el pago del flete. Puede
+            consultar los viajes aceptado, rechazados, facturados y pendiente de
+            facturar, todo desde la App.
+          </p>
+        </div>
+
+        <div class="flex flex-col gap-6">
+          <h2 class="text-primary font-bold text-2xl">
+            Gestión de gastos de flota
+          </h2>
+          <p class="text-gray-400">
+            Con el desarrollo sumarás una solución para poder tener toda los
+            costos de la flota de camiones actualizada y conocida, por medio de
+            reportes personalizados, podrás conocer consumos de combustibles,
+            neumáticos, repuestos y reparaciones. Así podrás determinar el costo
+            por unidad (Km, Tn, etc.)
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="flex flex-col items-center justify-center gap-20 py-20">
+      <div class="flex flex-col w-[1000px] gap-4">
+        <h1 class="text-primary text-5xl font-bold">Herramientas</h1>
+
+        <div>
+          <a
+            href="#contacto"
+            class="inline-block py-4 px-6 text-lg text-primary rounded-full shadow-2xl transition duration-300 ease-in-out transform hover:scale-105 hover:bg-green-200"
+            >¿Qué es la huella de carbono?</a
+          >
+        </div>
+
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-center"
+        >
+          <div class="flex flex-col gap-4">
+            <div
+              class="h-[155px] w-[250px] self-center rounded-md overflow-hidden"
+            >
+              <img
+                src="img/herramientas-1.jpg"
+                alt="Medición de la Huella de Carbono"
+                class="w-full h-48 object-cover object-bottom rounded-md"
+              />
+            </div>
+            <div class="flex flex-col gap-4">
+              <h2
+                class="flex items-center justify-center h-16 text-xl font-bold text-gray-500"
+              >
+                Medición de la Huella de Carbono
+              </h2>
+              <p>
+                Podrás medir la Huella de Carbono de manera permanente,
+                accediendo a información actualizada cuando lo requieras
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-col gap-4">
+            <div
+              class="h-[155px] w-[250px] self-center rounded-md overflow-hidden"
+            >
+              <img
+                src="img/herramientas-2.jpg"
+                alt="Control automático de documentación de vehículos"
+                class="w-full h-48 object-cover object-top rounded-md"
+              />
+            </div>
+            <div class="flex flex-col gap-4">
+              <h2
+                class="flex items-center justify-center h-16 text-xl font-bold text-gray-500"
+              >
+                Control automático de documentación de vehículos
+              </h2>
+              <p>
+                Controla que la documentación de los vehículos esté siempre al
+                día
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-col gap-4">
+            <div
+              class="h-[155px] w-[250px] self-center rounded-md overflow-hidden"
+            >
+              <img
+                src="img/herramientas-3.jpg"
+                alt="Control automático de documentación de choferes"
+                class="w-full h-48 object-cover rounded-md"
+              />
+            </div>
+            <div class="flex flex-col gap-4">
+              <h2
+                class="flex items-center justify-center h-16 text-xl font-bold text-gray-500"
+              >
+                Control automático de documentación de choferes
+              </h2>
+              <p>
+                Controla que la documentación de los choferes esté siempre al
+                día
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-col gap-4">
+            <div
+              class="h-[155px] w-[250px] self-center rounded-md overflow-hidden"
+            >
+              <img
+                src="img/herramientas-4.jpg"
+                alt="Módulo de Gestión y Costos"
+                class="w-full h-48 object-cover rounded-md"
+              />
+            </div>
+            <div class="flex flex-col gap-4">
+              <h2
+                class="flex items-center justify-center h-16 text-xl font-bold text-gray-500"
+              >
+                Módulo de Gestión y Costos
+              </h2>
+              <p>
+                Podrás detallar los gastos de mantenimiento para cada vehículo y
+                conocer el costo unitario de cada uno
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="flex flex-col items-center justify-center gap-20 py-20 card-bg-dark"
+    >
+      <div class="flex flex-col w-[1000px] gap-4">
+        <h1 class="text-primary text-5xl font-bold">Planes</h1>
+
+        <div class="flex text-gray-400 border-2 border-gray-400">
+          <div class="flex flex-col border-gray-400 border-r-2 p-4 gap-y-2">
+            <h2 class="text-2xl font-bold">Básico</h2>
+            <p class="text-md">
+              Perfecto para pequeñas empresas que buscan una solución sencilla
+              de gestión logística.
+            </p>
+            <ul
+              class="list-disc text-sm text-gray-400 pl-2 mt-4 space-y-2 list-inside"
+            >
+              <li>1 usuario Coordinador</li>
+              <li>Control de documentación de vehículos y choferes</li>
+              <li>Medición de la Huella de Carbono</li>
+              <li>Informes básicos</li>
+            </ul>
+          </div>
+
+          <div class="flex flex-col border-gray-400 border-r-2 p-4 gap-y-2">
+            <h2 class="text-2xl font-bold">Estándar</h2>
+            <p class="text-md">
+              Ideal para empresas en crecimiento que necesitan funciones
+              avanzadas de gestión.
+            </p>
+            <ul
+              class="list-disc text-sm text-gray-400 pl-2 mt-4 space-y-2 list-inside"
+            >
+              <li>1 usuario Coordinador</li>
+              <li>5 usuarios solicitantes</li>
+              <li>Control de documentación de vehículos y choferes</li>
+              <li>Medición de la Huella de Carbono</li>
+              <li>Informes detallados</li>
+            </ul>
+          </div>
+
+          <div class="flex flex-col border-gray-400 border-r-2 p-4 gap-y-2">
+            <h2 class="text-2xl font-bold">Extendido</h2>
+            <p class="text-md">
+              Empresas que coordinan sus actividades logísticas con proveedores,
+              tales como empresas logísticas o centros de camioneros.
+            </p>
+            <ul
+              class="list-disc text-sm text-gray-400 pl-2 mt-4 space-y-2 list-inside"
+            >
+              <li>3 usuarios Coordinador</li>
+              <li>10 usuarios solicitantes</li>
+              <li>Control de documentación de vehículos y choferes</li>
+              <li>Medición de la Huella de Carbono</li>
+              <li>Informes detallados</li>
+              <li>Vínculo con proveedores para una gestión más eficiente</li>
+            </ul>
+          </div>
+
+          <div class="flex flex-col border-gray-400 p-4 gap-y-2">
+            <h2 class="text-2xl font-bold">Módulo de Gestión</h2>
+            <p class="text-md">
+              Es el módulo de gestión de gastos, consumos y costos de los
+              vehículos.
+            </p>
+            <p>
+              Con este módulo se podrá tener acceso a generar información
+              necesaria para gestionar y conocer los gastos asociados a cada
+              vehículo.
+            </p>
+            <ul
+              class="list-disc text-sm text-gray-400 pl-2 mt-4 space-y-2 list-inside"
+            >
+              <li>Consumos de combustible</li>
+              <li>Consumos de neumáticos</li>
+              <li>Consumos de repuestos</li>
+              <li>Reparaciones</li>
+              <li>Informes detallados</li>
+            </ul>
           </div>
         </div>
       </div>
