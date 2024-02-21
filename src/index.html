@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,67 +14,83 @@
     </style>
   </head>
   <body>
-    <section
-      class="lg:h-dvh flex flex-col justify-center items-center py-10 md:py-20"
-    >
-      <img src="img/logo.png" alt="Logisflow Logo" class="w-full md:w-6/12" />
-      <div class="flex flex-col gap-6 mx-4 md:mx-0">
-        <div class="flex flex-col">
-          <h1 class="my-4 text-primary text-3xl md:text-5xl font-bold">
-            Optimiza
-          </h1>
-          <p class="text-lg md:text-2xl">
-            Operaciones logísticas y mejora la eficiencia de tu flota con
-            nuestro software integral.
-          </p>
-        </div>
-        <div class="flex flex-col">
-          <h1 class="my-4 text-primary text-3xl md:text-5xl font-bold">
-            Simplifica
-          </h1>
-          <p class="text-lg md:text-2xl">
-            El control, la planificación, seguimiento y asignación de vehículos
-            de manera efectiva.
-          </p>
-        </div>
-        <div
-          class="grid grid-cols-1 md:grid-cols-3 gap-4 text-center items-center my-10"
+    <a href="#top" class="hidden md:block fixed bottom-8 right-8">
+      <svg
+        class="h-16 w-16"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <circle cx="12" cy="12" r="10" />
+        <polyline points="16 12 12 8 8 12" />
+        <line x1="12" y1="16" x2="12" y2="8" />
+      </svg>
+    </a>
+
+    <section class="lg:h-dvh flex flex-col">
+      <div
+        class="flex flex-col text-center md:flex-row gap-2 justify-center my-4"
+      >
+        <a
+          href="#contacto"
+          class="py-4 px-6 text-lg transition duration-300 ease-in-out hover:bg-green-200 rounded-md shadow-md"
+          >CONTACTO</a
         >
-          <a
-            href="#contacto"
-            class="inline-block py-4 px-6 text-lg rounded-full shadow-2xl transition duration-300 ease-in-out transform hover:scale-105 hover:bg-green-200"
-            >CONTACTO</a
-          >
-          <a
-            href="#software"
-            class="inline-block py-4 px-6 text-lg rounded-full shadow-2xl transition duration-300 ease-in-out transform hover:scale-105 hover:bg-green-200"
-            >SOFTWARE</a
-          >
-          <a
-            href="#caracteristicas"
-            class="inline-block py-4 px-6 text-lg rounded-full shadow-2xl transition duration-300 ease-in-out transform hover:scale-105 hover:bg-green-200"
-            >CARACTERÍSTICAS</a
-          >
-          <a
-            href="#herramientas"
-            class="inline-block py-4 px-6 text-lg rounded-full shadow-2xl transition duration-300 ease-in-out transform hover:scale-105 hover:bg-green-200"
-            >HERRAMIENTAS</a
-          >
-          <a
-            href="#planes"
-            class="inline-block py-4 px-6 text-lg rounded-full shadow-2xl transition duration-300 ease-in-out transform hover:scale-105 hover:bg-green-200"
-            >PLANES</a
-          >
-          <a
-            href="#preguntas"
-            class="inline-block py-4 px-6 text-lg rounded-full shadow-2xl transition duration-300 ease-in-out transform hover:scale-105 hover:bg-green-200"
-            >PREGUNTAS</a
-          >
-          <a
-            href="#casos-de-uso"
-            class="inline-block py-4 px-6 text-lg rounded-full shadow-2xl transition duration-300 ease-in-out transform hover:scale-105 hover:bg-green-200"
-            >CASOS DE USO</a
-          >
+        <a
+          href="#software"
+          class="py-4 px-6 text-lg transition duration-300 ease-in-out hover:bg-green-200 rounded-md shadow-md"
+          >SOFTWARE</a
+        >
+        <a
+          href="#caracteristicas"
+          class="py-4 px-6 text-lg transition duration-300 ease-in-out hover:bg-green-200 rounded-md shadow-md"
+          >CARACTERÍSTICAS</a
+        >
+        <a
+          href="#herramientas"
+          class="py-4 px-6 text-lg transition duration-300 ease-in-out hover:bg-green-200 rounded-md shadow-md"
+          >HERRAMIENTAS</a
+        >
+        <a
+          href="#planes"
+          class="py-4 px-6 text-lg transition duration-300 ease-in-out hover:bg-green-200 rounded-md shadow-md"
+          >PLANES</a
+        >
+        <a
+          href="#preguntas"
+          class="py-4 px-6 text-lg transition duration-300 ease-in-out hover:bg-green-200 rounded-md shadow-md"
+          >PREGUNTAS</a
+        >
+        <a
+          href="#casos-de-uso"
+          class="py-4 px-6 text-lg transition duration-300 ease-in-out hover:bg-green-200 rounded-md shadow-md"
+          >CASOS DE USO</a
+        >
+      </div>
+      <div class="flex flex-col justify-center items-center py-10 md:py-20">
+        <img src="img/logo.png" alt="Logisflow Logo" class="w-full md:w-6/12" />
+        <div class="flex flex-col gap-6 mx-4 md:mx-0">
+          <div class="flex flex-col">
+            <h1 class="my-4 text-primary text-3xl md:text-5xl font-bold">
+              Optimiza
+            </h1>
+            <p class="text-lg md:text-2xl">
+              Operaciones logísticas y mejora la eficiencia de tu flota con
+              nuestro software integral.
+            </p>
+          </div>
+          <div class="flex flex-col">
+            <h1 class="my-4 text-primary text-3xl md:text-5xl font-bold">
+              Simplifica
+            </h1>
+            <p class="text-lg md:text-2xl">
+              El control, la planificación, seguimiento y asignación de
+              vehículos de manera efectiva.
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -640,7 +656,5 @@
         </p>
       </div>
     </section>
-
-    <section class="py-20"></section>
   </body>
 </html>
